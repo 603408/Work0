@@ -1,0 +1,60 @@
+.h2
+{
+	color: #99FF33;
+	margin: 10px 0px 20px 0px;
+
+}
+
+.h3
+{
+	color: 	#FFFFFF;
+	margin: 10px 0px 0px 0px;
+
+}
+
+.textstyle
+{
+	color: #00FF66;
+	text-align: center;
+
+}
+
+.beijingcolor
+{
+	background-color: "#d88273"
+}
+
+
+
+.kuai1
+{
+	
+	/*height:280px;
+	width: 480px;*/
+	height:685px;
+	width: 970px;
+	color: #F0F0F0;
+	background-color: rgba(16,12,42);
+	/*background: url("../图形模板/框22.png") no-repeat center;*/
+	background-size: contain;
+
+}
+
+
+
+
+.kuai1_tu
+{
+	height:645px;
+	/*width: 480px;*/
+	margin: 10px,0px,0px,0px;
+}
+
+
+.kuai_title
+{
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+

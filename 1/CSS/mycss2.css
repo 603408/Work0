@@ -1,0 +1,83 @@
+.h1
+{
+	color: 	#FFFFFF;
+	margin: 10px 30px 50px 10px;
+
+}
+
+.h2
+{
+	color: #99FF33;
+	margin: 10px 0px 20px 0px;
+
+}
+
+.h3
+{
+	color: 	#FFFFFF;
+	margin: 10px 0px 0px 0px;
+
+}
+
+.textstyle
+{
+	color: #00FF66;
+	text-align: center;
+
+}
+
+
+.beijingimag
+{
+	/*background: url("../图形模板/背景图.png");
+/*	background-size: contain;*/
+	margin: 0px;
+
+}
+
+
+
+
+.kuai2
+{
+	/*height: 370px;
+	width: 860px;*/
+	height: auto;
+	width: 970px;
+	background:rgba(16,12,42);
+	/*background: url("../图形模板/框23.png") no-repeat center;*/
+	background-size: contain;
+	margin: 0px;
+
+}
+
+
+.kuai1_tu
+{
+	height:660px;
+	/*width: 480px;*/
+	margin: 10px,0px,0px,0px;
+}
+.kuai1_tu2
+{
+	height:660px;
+	width: auto;
+	margin: 10px,0px,0px,0px;
+	/*display:inline-block ;*/
+
+}
+.kuai1_tu4
+{
+	height:660px;
+	width:900px;
+	margin: 10px,0px,0px,0px;
+}
+.kuai_title
+{
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+
+
+

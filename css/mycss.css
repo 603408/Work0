@@ -1,0 +1,211 @@
+
+
+
+.kuai_title
+{
+	height:15px;
+
+}
+
+.kuai1
+{
+	height:320px;
+	width: 540px;
+	margin: 5px 5px 5px 80px;
+	/*height:206px;
+	width: 414px;
+	margin: 0px 0px 0px -30px;*/
+
+	color: #F0F0F0;
+	/*background-color: rgba(18, 18, 18, 0.5);*/
+	/*background: url("../pic/框-左1.png")  center;*/
+		/*background-color: rgba(0, 60, 14, 0.5);
+	/*background: url("../图形模板/框22.png") no-repeat center;*/
+	background-size: contain;
+
+}
+.k11111
+{
+	margin: 3px 0px 0px 30px;
+}
+
+.k22222
+{
+margin: 10px 0px 0px 10px;
+}
+
+.kuai2
+{
+	height:196px;
+	width: 384px;
+	margin: 10px 5px 5px -5px;
+   /* height:206px;
+	width: 414px;
+	margin: 0px 0px 0px -30px;*/
+
+
+	color: #F0F0F0;
+	background-color: rgba(90,90, 90,0.5);
+	/*background: url("../pic/框-左2.png")  center;
+		/*background: url("../图形模板/框22.png") no-repeat center;
+	/*background: url("../图形模板/框22.png") no-repeat center;*/
+	background-size: contain;
+
+}
+
+.kuai4
+{
+	height:193px;
+	width: 384px;
+	margin: 10px 5px 10px -5px;
+	/*height:208px;
+	width: 414px;
+	margin: 0px 0px 0px -30px;*/
+
+	color: #F0F0F0;
+	background-color: rgba(30, 30, 30,0.5);
+	/*background: url("../pic/框-左3.png")  center;
+	/*background: url("../图形模板/框22.png") no-repeat center;
+	/*background-color: rgba(18, 18, 18, 0.5);*/
+	/*background: url("../图形模板/框22.png") no-repeat center;*/
+	background-size: contain;
+
+}
+
+.kuai5
+{
+    margin: 5px 5px 5px 6.5px;
+	height: 280px;
+	width: 750px;
+	/*margin: 0px 0px 0px -20px;
+	height: 280px;
+	width: 768px;*/
+	color: #F0F0F0;
+	background-color: rgba(50, 50, 50,0.5);
+	/*background: url("../pic/框-中1.png")  center;
+	/*background: url("../图形模板/框23.png") no-repeat center;*/
+	background-size: contain;
+
+
+}
+
+.kuai8
+{
+    margin: 10px 5px 10px 6.5px;
+	height: 315px;
+	width: 750px;
+	/*height: 340px;
+	width: 768px;*/
+	background-color: rgba(120, 20, 90,0.5);
+	color: #F0F0F0;
+	/*background: url("../pic/框-中2.png")  center;
+	/*background: url("../图形模板/框22.png")  center;
+	/*background: url("../图形模板/框23.png") no-repeat center;*/
+	background-size: contain;
+
+
+}
+
+
+
+.kuai6
+{
+    margin: 5px 5px 5px 0px;
+	height: 250px;
+	width: 359px;
+	/*height:260px;
+	width: 369px;*/
+
+	color: #F0F0F0;
+	background-color: rgba(160, 210, 30,0.5);
+	/*background: url("../pic/框-右1.png")  center;
+	/*	background: url("../图形模板/框22.png")  center;
+	/*background-color: rgba(18, 18, 18, 0.5);*/
+	/*background: url("../图形模板/框22.png") no-repeat center;*/
+	background-size: contain;
+
+}
+
+.kuai3
+{
+    margin: 10px 5px 10px 0px;
+	height: 345px;
+	width: 359px;
+	/*height:360px;
+	width: 369px;*/
+
+	color: #F0F0F0;
+	/*background: url("../pic/框-右2.png")  center;
+	/*background: url("../图形模板/框22.png")  center;*/
+	background-color: rgba(20, 220, 120 ,0.5);
+	/*background-color: rgba(18, 18, 18, 0.5);*/
+	/*background: url("../图形模板/框22.png") no-repeat center;*/
+	background-size: contain;
+
+}
+
+
+
+.kuai1_tu
+{
+	height:400px;
+	margin: 0px 0px 0px -200px;
+	/*width: 470px;*/
+	margin: 0px,0px,0px,0px;
+	transform:scale(0.9, 0.9)
+
+}
+
+
+
+.kuai2_tu
+{
+	height:173px;
+	/*width: 480px;*/
+	margin: 0px,0px,0px,-10px;
+	transform:scale(0.9, 0.9)
+}
+
+
+.kuai4_tu
+{
+	height:173px;
+	/*width: 480px;*/
+	margin: 0px,-10px,0px,0px;
+	transform:scale(0.9, 0.9)
+}
+
+.kuai5_title
+{
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+
+.kuai8_tu
+{
+	height:270px;
+	/*width:840px;*/
+	margin: -30px,0px,0px,0px;
+}
+
+.kuai6_tu
+{
+	height:250px;
+	width: auto;
+	margin: 0px,0px,0px,0px;
+	transform:scale(0.82, 0.82)
+	/*display:inline-block ;*/
+
+}
+
+
+.kuai3_tu
+{
+	height:340px;
+	/*width: 480px;*/
+	margin: 0px,0px,0px,0px;
+	transform:scale(0.85, 0.85)
+}
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href=".\CSS\mycss.css">
+
+
+</head>
+<body class="beijingimag">
+	<!-- 引用Echarts的图形库 -->
+	<script src="./JS文件/myecharts.js"></script>
+
+	<div class="container-fluid " style="width: auto; height: auto;">
+		<div class="clearfix">
+			<div class="col-xl-12 column col-lg-12">
+
+			</div>
+		</div>
+
+		<div class="row clearfix">
+			<div class="col-xl-12 column col-lg-12">
+				<div class="row clearfix">
+
+
+
+
+					<div class="col-xl-3 column col-lg-12">
+						
+
+
+						<div id="Shuiping_tuxing" class="kuai1">
+							<div class="clearfix"> <p class="kuai_title">Relationship Of Miserable World</p></div>
+							<div id="Shuiping" class="kuai1_tu"> 
+								<script type="text/javascript">
+									var Shuiping=echarts.init(document.getElementById('Shuiping'));
+									table1(Shuiping);
+								</script>
+							</div>
+							</div>
+
+						
+					</div>
+				</div>
+			</div>
+			</div>
+			<script type="text/javascript">
+				window.onresize=function()
+				{
+					tabel1.resize();
+					Shuiping.resize();
+					zb.resize();
+					JZB2.resize();
+					JZB.resize();
+					Hh.resize();
+					AA.resize();
+					PP.resize();
+					HH.resize();
+				}
+			</script>
+		</body>
+		</html>

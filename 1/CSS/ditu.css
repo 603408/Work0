@@ -1,0 +1,141 @@
+body, html,#ditu 
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin:0;
+	font-family:"微软雅黑";
+
+	position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+
+}
+
+.s0
+{
+	position:absolute;
+    right:10px;
+    top:4%;
+    z-index:1;
+   /* color: red;*/
+}
+
+.s1
+{
+	position:absolute;
+    right:10px;
+    top:30%;
+    z-index:1;
+    /*color: red;*/
+}
+
+.s2
+{
+	position:absolute;
+    right:10px;
+    top:65%;
+    z-index:1;
+    /*color: red;*/
+}
+.kuai1_tu
+{
+	height:250px;
+	width: 480px;
+	margin: 10px,0px,0px,0px;
+	/*background-color: red;*/
+}
+
+.kuai2_tu
+{
+	height:180px;
+	width: 480px;
+	margin: 10px,0px,0px,0px;
+	/*background-color: red;*/
+}
+
+.kuai3_tu
+{
+	/*height:300px;
+	width: 480px;*/
+	margin: 10px,0px,0px,0px;
+	/*background-color: red;*/
+}
+.s3
+{
+	position:absolute;
+    left:10px;
+    top:4%;
+    z-index:1;
+}
+
+.s4
+{
+	position:absolute;
+    left:10px;
+    top:40%;
+    z-index:1;
+}
+
+.s5
+{
+	position:absolute;
+    left:10px;
+    top:70%;
+    z-index:1;
+}
+
+.fl-table {
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    border-collapse: collapse;
+    max-width: 100%;
+    white-space: nowrap;
+    word-break: keep-all;
+		    }
+
+.fl-table th {
+    text-align: center;
+    font-size: 20px;
+    color: #FFFF00;
+}
+
+.fl-table tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    text-align: center;
+}
+
+.fl-table tr:hover td {
+    background: #00d1b2;
+    color: red;
+}
+
+.fl-table td, .fl-table th {
+    border-style: none;
+    border-top: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    border-bottom: 3px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    padding: .5em .55em;
+    font-size: 15px;
+}
+
+.fl-table td {
+    border-style: none;
+    font-size: 15px;
+    color: #FFFFFF;
+    vertical-align: center;
+    border-bottom: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    height: 30px;
+}
+
+.fl-table tr:nth-child(even) {
+    background:rgba(255, 255, 255, 0.3);
+}

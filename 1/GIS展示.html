@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>远程运维示例</title>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>  
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-liquidfill.min.js"></script>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href=".\CSS\ditu.css">
+	<script src="./JS文件/ditu.js"></script>
+ </head>
+ 
+<body style="background-color:#404a59">
+<script type="text/javascript">
+	window.onresize=function(){changeDiv();} //浏览器大小改变时刷新
+</script>
+
+<div id="ditu">
+	    <script type="text/javascript">
+    	  var chart = echarts.init(
+            document.getElementById('ditu')
+
+            );
+    	  ditu_add(chart);</script>
+</div>
+
+<div class="s0 kuai2_tu" id="YBP">
+
+		<script type="text/javascript">
+			var chart = echarts.init(document.getElementById('YBP'), 
+				'light', 
+				{renderer: 'canvas'}
+				);
+			YBP(chart);
+		</script>
+</div>
+
+<div class="s1 kuai1_tu" id="bar">
+
+		<script type="text/javascript">
+			var chart = echarts.init(document.getElementById('bar'), 
+				'light', 
+				{renderer: 'canvas'}
+				);
+			Zhuxingtu(chart);
+		</script>
+</div>
+
+<div class="s2  kuai1_tu" id="Pie">
+	<script type="text/javascript">
+	var chart = echarts.init(document.getElementById('Pie'), 
+		'light', 
+		{renderer: 'canvas'}
+		);
+	PingXingTu(chart);
+</script>
+</div>
+
+<div class="s3 kuai1_tu" id="SQ">
+
+		<script type="text/javascript">
+			var chart = echarts.init(document.getElementById('SQ'), 
+				'light', 
+				{renderer: 'canvas'}
+				);
+			ShiuQiu(chart);
+		</script>
+</div>
+
+<div class="s4 kuai3_tu" id="table_div">
+
+    <table class="fl-table" >
+		    <tr>
+		        <th>系列 分类</th>
+		        <th>A系列综合</th>
+		        <th>H系列综合</th>
+		        <th>G系列综合</th>
+		        <th>综合评价</th>
+		    </tr>
+		    <tr>
+		        <td>年售总台数</td>
+		        <td>1555905</td>
+		        <td>2263594</td>
+		        <td>2511464</td>
+		        <td>增长</td>
+		    </tr>
+		    <tr>
+		        <td>可监控运维台数</td>
+		        <td>1555005</td>
+		        <td>2263504</td>
+		        <td>2511164</td>
+		        <td>增长</td>
+		    </tr>
+		    <tr>
+		        <td>故障平均次数</td>
+		        <td>905</td>
+		        <td>194</td>
+		        <td>114</td>
+		        <td>平稳</td>
+		    </tr>
+		    <tr>
+		        <td>报警平均次数</td>
+		        <td>1295</td>
+		        <td>8259</td>
+		        <td>600</td>
+		        <td>增多</td>
+		    </tr>
+		    <tr>
+		        <td>调整平均次数</td>
+		        <td>112</td>
+		        <td>900</td>
+		        <td>1714</td>
+		        <td>持平</td>
+		    </tr>
+		    <tr>
+		        <td>应急平均次数</td>
+		        <td>357</td>
+		        <td>556</td>
+		        <td>619</td>
+		        <td>持平</td>
+		    </tr>
+		    <tr>
+		        <td>死机平均次数</td>
+		        <td>16</td>
+		        <td>92</td>
+		        <td>64</td>
+		        <td>减少</td>
+		    </tr>
+		    <tr>
+		        <td>投诉平均次数</td>
+		        <td>53</td>
+		        <td>47</td>
+		        <td>86</td>
+		        <td>减少</td>
+		    </tr>
+	</table>
+</div>
+
+<script type="text/javascript">
+	changeDiv();//浏览器大小改变时刷新
+</script>
+
+</body>
+</html>
+
+
